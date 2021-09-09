@@ -23,7 +23,7 @@ const auth = {
         }
     },
 
-    actions: {
+    action: {
         register: {
             register({commit}, user){
                 return new Promise((resolve,reject) =>{
